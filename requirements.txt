@@ -1,0 +1,8 @@
+# the web framework
+flask
+# Gemini API library
+google-generativeai
+# client to call an ollama endpoint
+ollama
+# Azure AI Studio inference library
+azure-ai-inference

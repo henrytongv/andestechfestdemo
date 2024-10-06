@@ -1,0 +1,4 @@
+# example config file taken from
+# https://github.com/GoogleCloudPlatform/python-docs-samples/blob/main/appengine/standard_python3/hello_world/app.yaml
+
+runtime: python311
