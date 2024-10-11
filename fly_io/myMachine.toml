@@ -1,0 +1,14 @@
+app = 'nombre-unico-y-bonito-para-mi-gpu-machine'
+primary_region = 'ord'
+
+# Imagen docker base, puede ser cualquiera, aquí usamos ollama por simplicidad solamente.
+[build]
+  image = 'ollama/ollama'
+
+# Cero instancias (scale to zero) si nadie está usando tu servicio
+[http_service]
+  internal_port = 11434
+  min_machines_running = 0
+
+[[vm]]
+  gpu_kind = "l40s"
